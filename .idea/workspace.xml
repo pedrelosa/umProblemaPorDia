@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bae7704b-4e84-46ef-b55e-8209f67bc4da" name="Changes" comment="feat: segundo problema dia 02">
-      <change afterPath="$PROJECT_DIR$/src/exercicios/Ex03.java" afterDir="false" />
+    <list default="true" id="bae7704b-4e84-46ef-b55e-8209f67bc4da" name="Changes" comment="feat: terceiro problema dia 03">
+      <change afterPath="$PROJECT_DIR$/src/exercicios/Ex04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,10 @@
       <workItem from="1677772322682" duration="2043000" />
       <workItem from="1677783793569" duration="7000" />
       <workItem from="1677875517492" duration="3045000" />
-      <workItem from="1678131157228" duration="432000" />
+      <workItem from="1678131157228" duration="1845000" />
+      <workItem from="1678135918000" duration="2000" />
+      <workItem from="1678221292072" duration="2981000" />
+      <workItem from="1678224315876" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="feat- add a readme">
       <created>1677772688485</created>
@@ -75,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677877413610</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: terceiro problema dia 03">
+      <created>1678131779109</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131779109</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +95,7 @@
     <MESSAGE value="feat- add a readme" />
     <MESSAGE value="feat: primmeiro problema dia 01" />
     <MESSAGE value="feat: segundo problema dia 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: segundo problema dia 02" />
+    <MESSAGE value="feat: terceiro problema dia 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: terceiro problema dia 03" />
   </component>
 </project>
