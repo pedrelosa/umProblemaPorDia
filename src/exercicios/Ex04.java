@@ -14,7 +14,8 @@ public class Ex04 {
 			for (int j = 100; j <= 999; j++) {
 				produto = j * i;
 				//checking if it's a palindrome
-				if (new StringBuilder(Integer.toString(produto)).reverse().toString().equalsIgnoreCase(Integer.toString(produto))){
+				if (new StringBuilder(Integer.toString(produto)).reverse().toString()
+						.equalsIgnoreCase(Integer.toString(produto))){
 					//checking if it is greater than the previous one and storing
 					if (produto < memo){
 						result = memo;
