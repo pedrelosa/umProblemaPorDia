@@ -10,13 +10,17 @@ package exercicios;
  */
 public class Ex05 {
 	public static void main(String[] args) {
+		long start = System.currentTimeMillis();
 		int num = 2520, count=0;
 		boolean isDivisible = false;
 		while (!isDivisible){
-			num += 2;
+			num += 20;//I put the sum of 20 in 20 as it would save half the processing
 			for (int i = 1; i <= 20; i++) {
 				if (num%i==0){
 					count++;
+				}else {//Processing time gain of 83% if the sum of each loop is
+					// 2 instead of 20
+					break;
 				}
 			}
 			if (count==20){
@@ -26,5 +30,8 @@ public class Ex05 {
 			}
 		}
 		System.out.println(num);
+		long end = System.currentTimeMillis();
+		long totalTime = end - start;
+		System.out.println("Total running time: " + totalTime + " milliseconds");
 	}
 }
